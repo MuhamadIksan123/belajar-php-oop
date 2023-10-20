@@ -15,7 +15,6 @@ class CatShelter implements AnimalShelter {
         $cat = new Cat();
         $cat->name = $name;
         return $cat;
-
     }
 }
 
@@ -25,6 +24,5 @@ class DogShelter implements AnimalShelter {
         $dog = new Dog();
         $dog->name = $name;
         return $dog;
-
     }
 }
